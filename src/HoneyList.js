@@ -48,7 +48,7 @@ export const HoneyList = ({ addToCart }) => {
           <TableRow key={item.id}>
             <TableCell>{item.name}</TableCell>
             <TableCell>{item.price}</TableCell>
-            <TableCell>
+            <TableCell align="left">
               <Fab
                 size="small"
                 color="primary"
