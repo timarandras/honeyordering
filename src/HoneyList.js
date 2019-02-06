@@ -26,12 +26,9 @@ export const HoneyList = ({ addToCart }) => {
     }
   };
 
-  useEffect(
-    () => {
-      fetchHoneys();
-    },
-    [honeys]
-  );
+  useEffect(() => {
+    fetchHoneys();
+  }, []);
 
   return (
     <Table>
